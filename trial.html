@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeTime</title>
+
+    <style>
+        img {
+            width: 1500px;
+            border-radius: 100px;
+            float: center;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 20px;
+            justify-content: center;
+            display: flex;
+        }
+       
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+</head>
+
+<body>
+    
+        <h1><center>WELCOME TO TEE TIME</center></h1><br>
+        <h2><center>YOUR CHOICE, YOUR STYLE! <br> 
+            <i>You choose, we deliver! <br> The only limit is your imagination, start making your new favorite shirt with any of our adorable and lovable designs now!</i> <br> <br></center></h2>
+     
+        <img src="images/anime1.webp" alt=""><br>
+        <h2><center>Rediscover your inner child, or your emotional teenage life, we have different designs that can cater to your design needs at any time!</center></h2>
+        <br><br>
+    
+        <img src="images/anime2.jpg" alt=""><br>
+        <h2><center>Our shirts come in different sizes and they also come in five different colors! Order one today!</center></h2>
+        <br><br>
+    
+        <img src="images/cartoon1.jpg" alt=""><br>
+        <h2><center>Get one of our shirts now by filling out the order sheet below!</center></h2>
+        <br><br>
+    
+        <form action="test.php" method="post">
+
+            <label for="name">Name: </label>
+            <input type="text", id="name" name="name" required>
+
+            <label for="address">Address: </label>
+            <input type="text", id="address" name="address" required>
+
+            <label for="email">Email: </label>
+            <input type="text", id="email" name="email" required >
+
+            <label for="contact">Contact No.: </label>
+            <input type="text", id="contact" name="contact" required>
+
+            <label for="size">Size: </label>
+            <select id="size" name="size" required>
+                <option value="1">Extra Small (XS)</option>
+                <option value="2">Small (S)</option>
+                <option value="3">Medium (M)</option>
+                <option value="4">Large (L)</option>
+                <option value="5">Extra Large (XL)</option>
+            </select>
+
+            <label for="design">Size: </label>
+            <select id="design" name="design" required>
+                <option value="1">Style 1</option>
+                <option value="2">Style 2</option>
+                <option value="3">Style 3</option>
+                <option value="4">Style 4</option>
+            </select>
+
+            <label>
+                <input type="checkbox" name="terms" required>
+                I accept the terms and conditions.
+            </label>
+            
+            <br>
+
+          <button>Submit</button> 
+
+
+        </form>
+</body>
+
+</html>
